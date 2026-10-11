@@ -1,0 +1,12 @@
+prompt_prefix = "A gritty hand-painted isometric video game asset seen from a 2:1 dimetric angle above, muted desaturated palette, heavily worn and grimy rusted surfaces, soft ambient occlusion, warm key light from the top left with cool fill, strong readable silhouette, the object centered and fully visible on a plain flat light grey background. The object: "
+negative = ""   # FLUX ignores negatives
+lora = ""
+lora_strength = 0.6
+steps = 4
+cfg = 1.0
+size = 1024
+sampler = "DPM++ 2M Karras"
+post_mode = "smooth"   # smooth | pixel
+palette_size = 32
+texture_prefix = "A seamless tileable top-down material texture, flat orthographic view filling the whole frame, even diffuse lighting, no shadows, no perspective, no border, no objects, muted desaturated worn grimy hand-painted look. The material: "
+texture_saturation = 0.55

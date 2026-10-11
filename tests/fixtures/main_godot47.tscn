@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[node name="Main" type="Node2D" unique_id=447212020]
+
+[node name="Floor" type="TileMapLayer" parent="." unique_id=706741394]
+
+[node name="Props" type="Node2D" parent="." unique_id=277695350]
+y_sort_enabled = true

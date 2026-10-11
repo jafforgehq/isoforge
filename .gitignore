@@ -1,0 +1,10 @@
+.venv/
+output/
+sandbox/
+vendor/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.bak
+.DS_Store
+.godot/

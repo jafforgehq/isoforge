@@ -1,0 +1,6 @@
+pillow>=10
+numpy
+scipy
+mcp>=2
+rembg[cpu]
+pytest

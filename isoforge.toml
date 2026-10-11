@@ -1,0 +1,23 @@
+godot_project = ""            # optional default; tools take a project path per call
+output_dir = "output"
+blender_path = ""             # empty = auto-detect /Applications/Blender.app
+default_backend = "drawthings"  # drawthings | comfyui
+drawthings_url = "http://127.0.0.1:7860"
+comfyui_url = "http://127.0.0.1:8188"
+active_style = "grim_iso_painted"
+tile_w = 128
+tile_h = 64
+camera_mode = "dimetric_2_1"  # dimetric_2_1 | isometric
+wall_height_px = 96
+sprite_max_px = 96            # props: ~tile_w * 0.75 reads right next to 128px tiles
+base_seed = 1000
+rembg_models = ["isnet-general-use", "birefnet-general"]
+
+[quality]
+alpha_min = 0.08
+alpha_max = 0.85
+border_margin_px = 2
+dominant_blob_min = 0.9       # largest blob share of opaque pixels
+halo_max = 0.02               # share of semi-transparent px after defringe
+max_retries = 3
+tile_seam_ratio_max = 1.6     # wrap-seam diff / interior neighbour diff (1.0 = invisible seam)
